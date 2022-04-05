@@ -1,0 +1,10 @@
+<div
+  class="progress-bar"
+  [@progressBarAnimation]="progressBarState ? true : false"
+>
+  <div *ngIf="progressBarState" class="progress-bar__inner"></div>
+</div>
+<button (click)="loading()">click me</button>
+<div [@routeAnimations]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>

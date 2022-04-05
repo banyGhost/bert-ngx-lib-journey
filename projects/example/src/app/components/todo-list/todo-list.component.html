@@ -1,0 +1,7 @@
+<div class="todo-list">
+  <div class="todo" *ngFor="let todo of todoList" [@todoListAnimations]="'in'">
+    <p class="title">{{ todo.title }}</p>
+    <p class="desc">{{ todo.desc }}</p>
+    <p class="date">target date: {{ todo.targetFinishDate }}</p>
+  </div>
+</div>

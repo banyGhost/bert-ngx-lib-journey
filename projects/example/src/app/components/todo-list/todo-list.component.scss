@@ -1,0 +1,18 @@
+.todo-list {
+  padding: 10px;
+}
+.todo {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  .title {
+    font-size: 20px;
+    color: #000;
+  }
+  .desc,
+  .date {
+    font-size: 14px;
+    color: #333;
+  }
+}
